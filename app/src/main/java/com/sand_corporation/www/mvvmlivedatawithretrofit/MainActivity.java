@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //WithOutLiveData
         setContentView(R.layout.activity_main);
         txtTicketID = findViewById(R.id.txtTicketID);
         txtTicketName = findViewById(R.id.txtTicketName);
